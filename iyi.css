@@ -1,0 +1,39 @@
+ul #iyi {
+    background-color: #ffffe3;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    padding-left: 20px;
+    color: #4a4a4a;
+}
+
+p, ol, ul{
+    font-size: 23px;
+    padding-left: 80px;
+    width: 90%;
+    text-align: justify;
+    margin: 5px;
+}
+
+ol, ul {
+    padding-left: 140px;
+}
+
+h3 {
+    font-size: 25px;
+    padding-left: 55px;
+    color: #4a4a4a;
+}
+
+.subtitle {
+    margin-top: 0px;
+    padding-left: 45px;
+    font-size: 20px;
+}
+
+.recursion {
+    margin-bottom: 5px;
+}

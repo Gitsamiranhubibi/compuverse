@@ -1,0 +1,95 @@
+ul #lba {
+    background-color: #ffffe3;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div.container {
+    display: flex;
+}
+
+div.section {
+    border-top: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 49.25%;
+    margin: 0.75%;
+}
+
+
+h2 {
+    font-size: 30px;
+    padding-left: 20px;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.question p {
+    font-size: 23px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#saq .question button {
+    height: 32px;
+    font-size: 21px;
+    font-family: Georgia;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width:85px;
+    background-color: rgb(221, 178, 122);
+    border-radius: 5px;
+}
+
+#mcq .question button {
+    height: 32px;
+    font-size: 17px;
+    font-family: Georgia;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 110px;
+    background-color: #ffffe3;
+    border-radius: 5px;
+}
+
+#mcq .question .btns {
+    margin-left: 40px;
+}
+
+#saq .question button:hover {
+    background-color: rgb(170, 125, 65);
+    cursor: pointer;
+}
+
+
+input {
+    margin-left: 50px;
+    margin-bottom: 5px;
+    width: 60%;
+    height: 26px;
+    font-size: 21px;
+    font-family: Georgia;
+    outline: none;
+    padding-left: 10px;
+}
+
+/* input:focus {
+    outline: none;
+} */
+
+.question p.result {
+    font-size: 17px;
+    margin-top: 0px;
+    padding-left: 60px;
+}
+
+hr {
+    color: #192b3f;
+    background-color: #192b3f;
+    text-align: center;
+    width: 95%;
+}
+
+.question form:hover, .question div:hover {
+    background-color: #e4e4c9;
+}
